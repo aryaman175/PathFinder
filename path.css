@@ -1,0 +1,90 @@
+canvas{
+  cursor:pointer;
+}
+button
+{
+  cursor:pointer;
+  position:absolute;
+  left:75%;
+  font-size:35px;
+}
+
+#instructions
+{
+  position: absolute;
+  left:65%;
+  top:15%;
+  font-size: 25px;
+}
+
+#start
+{
+   top:50%
+}
+#end
+{
+   top:60%
+}
+#blocks
+{
+   top:70%
+}
+
+#go
+{
+   top:80%
+}
+#empty{
+  top:90%
+}
+.active
+{
+  color:#4391b0;
+}
+
+.endText
+{
+  position: absolute;
+  font-size: 35px;
+  left:75%;
+  top:35%;
+  display: none;
+}
+#d1{
+  left:85%;
+}
+#d2{
+  left:86%;
+}
+#d3{
+  left:87%;
+}
+#noSol
+{
+  color: red;
+}
+#done
+{
+  color: green;
+}
+#noSol
+{
+  color: red;
+}
+
+h1,h4
+{
+  position: absolute;
+  left:70%
+}
+h1
+{
+  top:1%;
+  text-decoration: underline;
+
+}
+h4
+{
+  top:8%;
+  font-style: italic;
+}

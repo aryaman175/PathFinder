@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Path Finder</title>
+  <link rel ="stylesheet" href="path.css">
+  <script type="text/javascript" src="jquerycopy.js">  </script>
+  <script type="text/javascript" src="p5.js">  </script>
+  <script type="text/javascript" src="pathContr.js">  </script>
+  <script type="text/javascript" src="path.js">  </script>
+  <h1> Path Finder </h1>
+  <h4> By Aryaman Kumar </h4>
+  </head>
+  <body>
+<p id="instructions"> After clicking Start/End, choose a particular box to position the initial and final points. Press "Blocks" and drag your mouse across the grid to input obastacles. <br>Hit Go when ready.</p>
+  <div class ="onScreen">
+  <button id ="start"> Start </button>
+  <button id ="end"> End </button>
+  <button id ="blocks"> Blocks </button>
+</div>
+<div class ="bOther">
+  <button id ="go"> Go </button>
+  <button id ="empty"> Clear </button>
+</div>
+
+  <p class ="endText"id ='noSol'> No Solution!</p>
+  <p  class ="endText thinkGroup"id ="think"> Thinking </p>
+  <p class ="endText thinkGroup" id =d1>.</p>
+  <p class ="endText thinkGroup" id =d2>.</p>
+  <p class ="endText thinkGroup" id =d3>.</p>
+  <p  class ="endText"id ="done"> Got It! </p>
+
+  </body>
+</html>
